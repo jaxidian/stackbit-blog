@@ -1,4 +1,4 @@
-title: Stackbit Fresh Theme
+title: Shane's Blog
 baseURL: /
 params:
   layout_style: overflow
@@ -19,6 +19,9 @@ params:
         new_window: true
       - text: Generated from DEV
         url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+      - text: Privacy Policy
+        url: 'https://www.iubenda.com/privacy-policy/77881441'
         new_window: true
 disableKinds:
   - RSS
