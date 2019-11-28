@@ -17,6 +17,12 @@
             "title": "DEV",
             "icon": "fa-dev",
             "url": "https://dev.to/jaxidian"
+        },
+        {
+            "type": "linkedin",
+            "title": "LinkedIn",
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/shanemilton/"
         }
     ]
 }
