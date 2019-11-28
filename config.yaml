@@ -12,7 +12,7 @@ params:
     has_nav: true
     has_social: true
   footer:
-    content: '&copy; All rights reserved. <a href="https://www.iubenda.com/privacy-policy/77881441" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy.</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>'
+    content: '&copy; All rights reserved.'
     links:
       - text: Made with Stackbit
         url: 'https://www.stackbit.com'
@@ -20,6 +20,7 @@ params:
       - text: Generated from DEV
         url: 'https://dev.to/connecting-with-stackbit'
         new_window: true
+    content: '<a href="https://www.iubenda.com/privacy-policy/77881441" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy.</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>'
 disableKinds:
   - RSS
   - taxonomy
