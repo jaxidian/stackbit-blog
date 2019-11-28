@@ -6,7 +6,7 @@ params:
   layout_style: overflow
   SidebarRecentLimit: 5
   palette: blue
-  AuthorName: Shane Milton ☁️
+  AuthorName: Shane Milton
   GitHubUser: jaxidian
   header:
     title: Shane Milton ☁️
