@@ -5,17 +5,21 @@ sections:
     component: hero_block.html
     type: heroblock
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      I'm going to talk about some geeky things here. I will sometimes just cover
+      the tech. At other times I'll be quite opinionated. I hope you'll be either
+      educated or entertained. I have not made any express or implied warranties
+      or representations that the words provided by this site cure any ailments.
   - section_id: about
     component: content_block.html
     type: contentblock
     title: About
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+      I have been a consultant, contractor, employee, business owner, developer,
+      architect, tester, business analyst, systems analyst, change management engineer,
+      development manager, project manager, debugger, bug-writer, and a lot more for
+      the past couple decades. I've had an empahsis in the healthcare and energy
+      industries. I've had a focus on web, cloud, and machine learning technologies.
+      I hope that some of my experiences can help some of your challenges. Cheers!
     actions:
       - label: Contact Me
         url: /contact

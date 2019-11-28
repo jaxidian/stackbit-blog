@@ -1,8 +1,13 @@
 title: Shane's Blog
-baseURL: /
+baseURL: https://Words.Jax.io/
+footnoteReturnLinkContents: ↩
+rssLimit: 20
 params:
   layout_style: overflow
+  SidebarRecentLimit: 5
   palette: blue
+  AuthorName: Shane Milton ☁️
+  GitHubUser: jaxidian
   header:
     title: Shane Milton ☁️
     tagline: "I am: Shane, married to my amazing wife, a dad, a Christian, a geek, a cloud architect, a Colts fan, a learner of machines. My opinions are my own.\r\n\r\nHe/him."
@@ -12,7 +17,7 @@ params:
     has_nav: true
     has_social: true
   footer:
-    content: '&copy; All rights reserved.'
+    content: '&copy; All rights reserved. <a href="https://www.iubenda.com/privacy-policy/77881441" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy.</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>'
     links:
       - text: Made with Stackbit
         url: 'https://www.stackbit.com'
@@ -20,8 +25,10 @@ params:
       - text: Generated from DEV
         url: 'https://dev.to/connecting-with-stackbit'
         new_window: true
-    content: '<a href="https://www.iubenda.com/privacy-policy/77881441" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy.</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>'
+frontmatter:
+  date:
+    - dateOverride
+    - :default
 disableKinds:
-  - RSS
   - taxonomy
   - taxonomyTerm
