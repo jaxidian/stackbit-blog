@@ -6,10 +6,10 @@ params:
   layout_style: overflow
   SidebarRecentLimit: 5
   palette: blue
-  AuthorName: Shane Milton
+  AuthorName: Shane Milton ☁️
   GitHubUser: jaxidian
   header:
-    title: Shane Milton ☁️
+    title: Shane Milton
     tagline: "I am: Shane, married to my amazing wife, a dad, a Christian, a geek, a cloud architect, a Colts fan, a learner of machines. My opinions are my own.\r\n\r\nHe/him."
     profile_img: >-
       https://res.cloudinary.com/practicaldev/image/fetch/s--mQto001N--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/23511/07b4d860-8eca-450d-925a-8672d5466f83.jpeg
